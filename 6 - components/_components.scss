@@ -1,0 +1,60 @@
+.header-menu {
+    & li {
+        background-color: $bg-box;
+        border-radius: 15px;
+        box-shadow: 2px 2px 5px $border-color;
+        font-weight: 900;
+        & a {
+            color: $box-text;
+        }
+    }
+    & li:hover {
+        background-color: #fff;
+        box-shadow: 2px 2px 5px #fff;
+        & a  {
+            color: $bg-box;
+        }
+    }
+}
+
+.history {
+    & .title {
+        color: $bg-box;
+        text-shadow: 1px 1px 5px $bg-box;
+        font-size: 5em;
+        font-weight: 800;
+    } 
+    & .text {
+        color: $text-color;
+        font-size: 1.5em;
+        font-weight: 200;
+        text-align: center;
+    }
+}
+
+.sub-title {
+    color: $text-color;
+    font-size: 2.4em;
+    font-weight: 500;
+}
+
+.icon {
+    background-color: $bg-box;
+    border-radius: 50%;
+
+    &:hover {
+        box-shadow:2px 2px 2px  5px $bg-box;
+    }
+}
+
+.footer {
+    background-color: black;
+    & .footer-name {
+        color: $bg-box;
+    }
+
+    & .footer-icon {
+        background-color: $bg-box;
+        border-radius: 50%;
+    }
+}

@@ -1,0 +1,62 @@
+.header-menu {
+    @include display(flex, row, center, center, wrap);
+    @include pad(20px);
+    & li{
+        @include pad(20px);
+        @include marg(0 10px)
+
+    }
+}
+
+.main {
+    @include display(flex, column);
+    @include marg(0 0 200px 0);
+    gap: 100px;
+}
+
+.first {
+    @include container;
+}
+
+.history {
+    @include display(flex, column, center, center);
+    & .title {
+        @include marg(0);
+    }
+    & .sub-title {
+        @include marg(10px 0 50px 0)
+    }
+}
+
+.tec {
+    @include container;
+    @include display(flex, column);
+    gap: 100px;
+}
+
+.icon {
+    width: 100px;
+    @include pad(30px);
+    @include marg(0 20px);
+    cursor: pointer;
+    
+}
+.footer {
+    & .footer-content {
+            @include container;
+            @include pad(30px 0 0 0);
+        & .footer-icon {
+            @include marg(0 50px);
+            cursor: pointer;
+        }
+        & .footer-name {
+            @include pad(30px 0 0 0);
+            @include marg(0);
+        }
+    }
+    
+    
+
+}
+
+

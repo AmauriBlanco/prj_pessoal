@@ -1,0 +1,20 @@
+@mixin display ($display:flex, $direction:row, $justify:center, $aling:center, $wrap:nowrap) {
+    display: $display;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $aling;
+    flex-wrap: $wrap;
+}
+
+@mixin marg($values...) {
+    margin: $values;
+}
+
+@mixin pad ($values...){
+    padding: $values;
+}
+
+@mixin container {
+    width: 80%;
+    margin: 0 auto;
+}
