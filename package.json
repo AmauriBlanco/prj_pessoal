@@ -1,0 +1,25 @@
+{
+  "name": "prj_pessoal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gulp-sass": "^5.0.0",
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmauriBlanco/prj_pessoal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmauriBlanco/prj_pessoal/issues"
+  },
+  "homepage": "https://github.com/AmauriBlanco/prj_pessoal#readme"
+}
